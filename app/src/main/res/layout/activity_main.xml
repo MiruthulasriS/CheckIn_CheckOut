@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/layout">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/countTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check in HitCount" />
+
+    <Button
+        android:id="@+id/CheckIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check In" />
+
+    <Button
+        android:id="@+id/CheckOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Out" />
+
+
+</LinearLayout>
